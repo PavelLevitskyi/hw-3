@@ -38,19 +38,30 @@
 
 /*stydio-skills*/
 
-.skills-box {
-  max-height: 250px;
+.skills-item {
+  min-height: 365px;
+}
+
+.skills-container {
+  display: flex;
+  width: 1200px;
+  text-align: left;
+
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.skiills-colon {
+  text-align: left;
 }
 
 .skills-position {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
+  margin-top: 175px;
 }
 
-.skills-colon {
-  display: flex;
+.skills-position li:not(:first-child) {
+  margin-left: 30px;
 }
 
 .skills-title,
@@ -59,6 +70,8 @@
 }
 
 .skills-title {
+  display: inline-block;
+
   color: var(--teg-h-navigation);
   font-weight: 700;
   font-size: 14px;
@@ -66,6 +79,8 @@
 }
 
 .skills-text {
+  display: inline-block;
+
   color: var(--text-color);
   font-size: 14px;
   line-height: 24px;
@@ -73,19 +88,51 @@
 
 /* work-section*/
 
+.work-container {
+  width: 1200px;
+
+  padding: 0px 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .work-title {
+  text-align: center;
+  margin-bottom: 50px;
+
   color: var(--teg-h-navigation);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+}
+
+.work-image {
+  display: flex;
+}
+
+.work-image li:not(:first-child) {
+  margin-left: 20px;
 }
 
 /*our-team*/
+
 .team {
+  min-height: 650px;
   background-color: var(--ourteam-background);
 }
 
+.team-container {
+  width: 1200px;
+
+  padding: 0px 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .team-title {
+  text-align: center;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -93,7 +140,28 @@
   color: var(--teg-h-navigation);
 }
 
+.team-foto {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.team-foto li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-card {
+  text-align: center;
+
+  background-color: var(--white-color);
+}
+
+.personal-foto {
+  margin-bottom: 30px;
+}
+
 .team-names {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -101,6 +169,8 @@
 }
 
 .team-professions {
+  margin-bottom: 30px;
+
   font-size: 16px;
   line-height: 19px;
 }
