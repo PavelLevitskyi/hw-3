@@ -1,11 +1,28 @@
 /*by-our-product*/
 
+.product-section {
+  background-color: var(--background-black);
+  width: 1200px;
+}
+
 .product {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+  text-align: center;
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+
   background-color: var(--background-black);
   color: var(--white-color);
 }
 
 .product-item {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -21,8 +38,24 @@
 
 /*stydio-skills*/
 
-.skills-item {
-  background-color: var(--white-color);
+.skills-box {
+  max-height: 250px;
+}
+
+.skills-position {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.skills-colon {
+  display: flex;
+}
+
+.skills-title,
+.skills-text {
+  margin: 0;
 }
 
 .skills-title {
