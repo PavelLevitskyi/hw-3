@@ -1,0 +1,78 @@
+/*by-our-product*/
+
+.product {
+  background-color: var(--background-black);
+  color: var(--white-color);
+}
+
+.product-item {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.product-link {
+  background-color: var(--hover-allblue);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*stydio-skills*/
+
+.skills-item {
+  background-color: var(--white-color);
+}
+
+.skills-title {
+  color: var(--teg-h-navigation);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.skills-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* work-section*/
+
+.work-title {
+  color: var(--teg-h-navigation);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/*our-team*/
+.team {
+  background-color: var(--ourteam-background);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: var(--teg-h-navigation);
+}
+
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--teg-h-navigation);
+}
+
+.team-professions {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-names,
+.team-professions {
+  background-color: var(--white-color);
+}

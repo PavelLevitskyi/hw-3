@@ -1,0 +1,26 @@
+.button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--teg-h-navigation);
+  background-color: var(--ourteam-background);
+  border: none;
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--white-color);
+  background-color: var(--hover-allblue);
+}
+
+.projects-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--teg-h-navigation);
+}
+
+.projects-list {
+  font-size: 16px;
+  line-height: 30px;
+}
