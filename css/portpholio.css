@@ -19,13 +19,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: -30px;
+  margin-top: -30px;
   margin-left: -30px;
 }
 
 .projects-card {
   flex-basis: calc(100% / 3 - 30px);
-  margin-bottom: 30px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
@@ -34,6 +34,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .portpholio-buttom li:not(:first-child) {
