@@ -141,13 +141,15 @@ h3 {
 /* footer */
 .footer {
   min-height: 255px;
-
   background-color: var(--background-black);
 }
 
 .footer-container {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 1200px;
+  align-items: center;
+  justify-content: space-between;
   padding: 0px 15px;
   margin: 0 auto;
 }
