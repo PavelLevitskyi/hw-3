@@ -2,18 +2,16 @@
 
 .product-section {
   background-color: var(--background-black);
-  width: 1200px;
 }
 
 .product {
-  max-width: 1600px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 95px;
-  padding: 0px 15px;
-  text-align: center;
   display: flex;
-  min-height: 600px;
+  flex-direction: column;
+  padding: 0px 15px;
   align-items: center;
   justify-content: center;
 
@@ -22,6 +20,7 @@
 }
 
 .product-item {
+  margin-top: 200px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -30,18 +29,17 @@
 }
 
 .product-link {
+  margin-bottom: 200px;
+
   background-color: var(--hover-allblue);
   color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  padding: 10px 32px;
 }
 
 /*stydio-skills*/
-
-.skills-item {
-  min-height: 365px;
-}
 
 .skills-container {
   display: flex;
@@ -49,7 +47,9 @@
   text-align: left;
 
   padding: 0px 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 95px;
 }
 
 .skiills-colon {
@@ -58,7 +58,6 @@
 
 .skills-position {
   display: flex;
-  margin-top: 175px;
 }
 
 .skills-position li:not(:first-child) {
@@ -93,7 +92,9 @@
   width: 1200px;
 
   padding: 0px 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 95px;
   align-items: center;
 }
 
@@ -118,19 +119,23 @@
 /*our-team*/
 
 .team {
-  min-height: 650px;
   background-color: var(--ourteam-background);
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .team-container {
   width: 1200px;
 
   padding: 0px 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
 }
 
 .team-title {
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin-bottom: 50px;
 
@@ -173,9 +178,4 @@
 
   font-size: 16px;
   line-height: 19px;
-}
-
-.team-names,
-.team-professions {
-  background-color: var(--white-color);
 }
